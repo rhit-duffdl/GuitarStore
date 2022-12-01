@@ -80,7 +80,7 @@ public class Main {
 			i++;
 		}
 		
-		
+		this.inventory.saveInventory();
 	}
 	
 	
@@ -145,10 +145,10 @@ public class Main {
 			}			
 			i++;
 		}		
+		this.inventory.saveInventory();
 	}
 	
 
-	
 	
 	public List<Spec> search(Spec spec) {
 		return null;		

@@ -27,7 +27,7 @@ public class StringInstrument {
 	}
 	
 	
-	public void setPrice(float newPrice) {
+	public void setPrice(double newPrice) {
 		this.price = newPrice;
 	}
 	

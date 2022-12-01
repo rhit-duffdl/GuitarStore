@@ -12,5 +12,7 @@ public class Guitar extends StringInstrument {
 		return "$" + super.getPrice() + " " + super.getSpec().getType() + " " + super.getSpec().getBuilder() + ", Top Wood: " + spec.getTopWood() + ", Back Wood: " + spec.getBackWood() + ", SN: " + super.getSerialNumber();
 	}
 
-
+	public GuitarSpec getSpec() {
+		return this.spec;
+	}
 }

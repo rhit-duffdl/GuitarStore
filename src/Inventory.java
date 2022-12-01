@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Inventory {
-	public ArrayList<Guitar> guitars; 
+	private ArrayList<Guitar> guitars; 
 	private ArrayList<Mandolin> mandolins;
 	
 	public Inventory() {

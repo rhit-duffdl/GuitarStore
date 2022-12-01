@@ -20,6 +20,12 @@ public class MandolinSpec extends Spec {
 		return this.topWood;
 	}
 	
+	
+	public boolean hasPickGuard() {
+		return this.pickGuard;
+	}
+	
+	
 	public boolean matches(MandolinSpec ms) {
 		return false;
 	}
